@@ -5,10 +5,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/style.css">
+    <!-- MATERIAL ICONS -->
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Document</title>
 </head>
 <body>
+    <header></header>
+
+    <aside>
+        <div class="logo-container">
+            <img src="/assets/img/google.svg" alt="logo">
+            <h2>Vase</h2>
+        </div>
+        <div class="profile-container">
+            <div id="avatar">
+                <img src="/assets/img/twitter.svg" alt="avatar">
+            </div>
+            <div id="username">Ralph Andersonn</div>
+            <div id="serial-number">1029-1234-235</div>
+            <span class="material-symbols-outlined">expand_more</span>
+        </div>
+        <nav>
+            <ul>
+                <li class="nav-menu">
+                    <span class="material-symbols-outlined">apps</span>
+                    <p>Dashboard</p>
+                </li>
+                <li class="nav-menu">
+                    <span class="material-symbols-outlined">videocam</span>
+                    <p>Videos</p>
+                </li>
+                <li class="nav-menu">
+                    <span class="material-symbols-outlined">leaderboard</span>
+                    <p>Analytics</p>
+                </li>
+                <li class="nav-menu">
+                    <span class="material-symbols-outlined">calendar_month</span>
+                    <p>Schedule</p>
+                </li>
+                <li class="nav-menu">
+                    <span class="material-symbols-outlined">account_circle</span>
+                    <p>Account</p>
+                </li>
+            </ul>
+        </nav>
+        <div id="ad">
+            <span class="material-symbols-outlined">stadia_controller</span>
+            <h1>Make AdSense</h1>
+            <div class="text-muted">Add ads to your videos to earn money</div>
+            <button>Create now</button>
+        </div>
+    </aside>
+
+    <main>
+        <div class="top">
+            <div id="heading">
+                <h1>Analytics</h1>
+                <div class="text-muted">Display analytics about your channel. <span class="material-symbols-outlined">query_stats</span></div>
+            </div>
+            <button id="upload">
+                <span class="material-symbols-outlined">smart_display</span>
+                Upload
+            </button>
+        </div>
+        <!-- END OF HEADER -->
+        <section id="overview">
+            <h2>Overview</h2>
+            <div class="card" id="total-views">
+                <span class="material-symbols-outlined">visibility</span>
+                <div class="text-muted">Total views</div>
+                <h2>10.3M</h2>
+            </div>
+
+            <div class="card" id="watch-time">
+                <span class="material-symbols-outlined">schedule</span>
+                <div class="text-muted">Watch Time (hrs)</div>
+                <h2>
+                    20.9K
+                    <span class="rate danger">5%</span>
+                </h2>
+            </div>
+
+            <div class="card" id="subscribers">
+                <span class="material-symbols-outlined">group</span>
+                <div class="text-muted">Subscribers</div>
+                <h2>
+                    1.3K
+                    <span class="rate success">12%</span>
+                </h2>
+            </div>
+
+            <div class="card" id="total-likes">
+                <span class="material-symbols-outlined">favorite</span>
+                <div class="text-muted">Total Likes</div>
+                <h2>
+                    3.4M
+                    <!-- <span class="rate success">12%</span> -->
+                </h2>
+            </div>
+        </section>
+        <!-- END OF OVERVIEW -->
+        <section id="middle-panel">
+            <div id="total-revenue">
+                <h2>Total Revenue</h2>
+                <div id="avatar">
+                    <img src="/assets/img/twitter.svg" alt="avatar">
+                </div>
+                <div id="username">Ralph Andersonn</div>
+                <div id="subscribers">3.5M Subscribers</div>
+                <div id="total-income-span">
+                    <div class="text-muted">Total Income</div>
+                    <h2>$70,859</h2>
+                </div>
+            </div>
+            <div id="graph">
+                <h2>Graph</h2>
+                <div id="chart">...</div>
+            </div>
+        </section>
+    </main>
     
+    <footer>
+        <p>© Hunter Xu. 2022</p>
+    </footer>
 </body>
 <script src="./public/js/main.js"></script>
 </html>
