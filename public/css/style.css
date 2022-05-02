@@ -1,3 +1,153 @@
 * {
     
 }
+
+html {
+    font-size: 14px;
+}
+
+.container {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    display: flex;
+    justify-content: start;
+}
+
+aside {
+    /* background-color: lightgray; */
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 8px;
+    width: 35vh;
+    height: 90vh;
+    border-radius: 15px;
+    margin: 1rem 0 1rem 1rem ;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 1.2rem;
+}
+
+.logo-container {
+    /* Default direction; row (horizontal) */
+    display: flex; 
+}
+
+.logo-container>img {
+    width: 3.2vh;
+    /* height: 2vh; */
+    margin-right: 0.6rem;
+}
+
+.profile-container {
+    margin-top: 1.2rem;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 8px;
+    display: flex;
+    padding: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-container>#avatar img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+nav>ul {
+    margin-left: -2.2rem;
+}
+
+/* Or .nav-menu */
+nav>ul>li {
+    display: flex;
+    gap: 1rem;
+    justify-content: start;
+    align-items: center;
+}
+
+#ad {
+    /* bottom: 0;
+    position: absolute;
+    width: 15rem; */
+    position: relative;
+    border-color: lightgray;
+    border-radius: 8px;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#ad button {
+    margin-top: 1.2rem;
+}
+
+main {
+    margin: 1.2rem 1.5rem 1.2rem 1.5rem;
+    width: 100vw;
+}
+
+main .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section #overview-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .card {
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 8px;
+    margin-right: 1.2rem;
+    width: 15vw;
+    height: 8rem;
+    padding: 1.2rem 0 0 1.2rem;
+}
+
+section#middle-panel {
+    display: flex;
+    justify-content: start;
+    margin-top: 1.5rem;
+}
+
+section#middle-panel #total-revenue-panel {
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 8px;
+    width: 15vw;
+    text-align: center;
+    padding: 2rem;
+}
+
+section#middle-panel #total-revenue-panel #total-income-panel {
+    margin-top: 1.2rem;
+    padding: 1.2rem;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: lightgray;
+}
+
+section#middle-panel #total-revenue #avatar img {
+    width: 150px;
+}
+
+section#middle-panel #graph-panel {
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 8px;
+    margin-left: 1.2rem;
+    /* text-align: center; */
+}
+
+footer {
+    text-align: center;
+}
